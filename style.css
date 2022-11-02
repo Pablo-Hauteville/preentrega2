@@ -47,6 +47,7 @@ h1 {
 }
 
 .imagen {
+    
     display: flex;
     justify-content:space-between;
     display: inline;
