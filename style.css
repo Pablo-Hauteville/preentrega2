@@ -46,6 +46,11 @@ h1 {
     width: 100%;
 }
 
+.imagen {
+    display: flex;
+    justify-content:space-between;
+    display: inline;
+}
 
 
 
