@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.colorin {
+    color: rgb(13, 18, 18);
+    font-size: 20px;
+    
+}
+
+
+
+.bg-color { 
+    background-color: #d9d9d9;
+}
+
+.tam {
+    height: 1000px;
+    width: 1000px;
+}
+
+
+
+h1 {
+    text-align: center;
+
+}
+
+.parrafoHome {
+    text-align: center;
+    
+
+}
+
+.fotoHome {
+    max-width: 100%;
+    height: auto;
+    
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
