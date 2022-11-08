@@ -60,12 +60,32 @@ h1 {
 }
 
 
-.imagen {
-    
+
+
+/*Galería*/
+
+.gallery-container {
     display: flex;
-    justify-content:space-between;
-    display: inline;
+    justify-content: center;
+   
+
 }
+
+
+
+.columna {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img-thumbnail{
+    width: 25%;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    
+}
+
 
 
 
