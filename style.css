@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Permanent+Marker&display=swap');
 * {
     padding: 0px;
     margin: 0px;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(31, 31, 39);
+
+
+}
 
 
 .colorin {
     color: rgb(13, 18, 18);
-    font-size: 20px;
+    
     
 }
 
@@ -26,11 +33,15 @@
 
 h1 {
     text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
 
 }
 
 .parrafoHome {
+    margin-top: 5%;
     text-align: center;
+    color: rgb(255, 255, 255);
     
 
 }
@@ -38,9 +49,11 @@ h1 {
 .fotoHome {
     max-width: 100%;
     height: auto;
+    border-radius: 22px;
     
 }
 .footer {
+    
     position: relative;
     bottom: 0;
     width: 100%;
