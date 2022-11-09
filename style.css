@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&family=Permanent+Marker&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -14,13 +15,13 @@ body {
 
 .colorin {
     color: rgb(13, 18, 18);
-    
-    
+
+
 }
 
 
 
-.bg-color { 
+.bg-color {
     background-color: #d9d9d9;
 }
 
@@ -31,18 +32,29 @@ body {
 
 
 
-h1 {
+h1,
+h2,
+h3 {
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: 5%;
+    font-size: 30px;
 
 }
+
 
 .parrafoHome {
     margin-top: 5%;
     text-align: center;
     color: rgb(255, 255, 255);
-    
+
+
+}
+
+.foto-perfil {
+    width: 100%;
+    border-radius: 22px;
+
 
 }
 
@@ -50,10 +62,12 @@ h1 {
     max-width: 100%;
     height: auto;
     border-radius: 22px;
-    
+
 }
+/*FOOTER*/
+
 .footer {
-    
+
     position: relative;
     bottom: 0;
     width: 100%;
@@ -64,27 +78,56 @@ h1 {
 
 /*Galería*/
 
-.gallery-container {
+.container-gallery {
     display: flex;
     justify-content: center;
-   
+
+}
+
+.img-thumbnail {
+    width: 100%;
+
 
 }
 
 
 
-.columna {
+.contenedor {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    align-items: center;
+
+
 }
-.img-thumbnail{
-    width: 25%;    
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 5%;
-    
+
+.img1,
+.img2 {
+    width: 100%;
+    border-radius: 22px;
+    border-color: antiquewhite;
+
 }
+
+/*sección contacto*/
+
+.logos {
+    width: 150px;
+    margin: 150px;
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+.contenedor-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
 
 
 
